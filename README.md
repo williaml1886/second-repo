@@ -29,4 +29,8 @@ williaml1886:~/workspace/second-repo (master) $ git remote add origin git@github
 williaml1886:~/workspace/second-repo (master) $ git push -u origin master
 error: src refspec master does not match any.
 error: failed to push some refs to 'git@github.com:williaml1886/second-repo.git'
-williaml1886:~/workspace/second-repo (master) $ 
+williaml1886:~/workspace/second-repo (master) $ git push
+error: src refspec master does not match any.
+error: failed to push some refs to 'git@github.com:williaml1886/second-repo.git'
+williaml1886:~/workspace/second-repo (master) $ -u origin master
+bash: -u: command not found
